@@ -1,11 +1,10 @@
 <script context="module">
-    export { default as layout } from './Layout.svelte';
 </script>
 
-<script>
+<script lang="ts">
     import Counter from '../Components/Counter.svelte'
 
-    export let name
+    export let name: string
 </script>
 
 <h1>Hello {name}</h1>
