@@ -6,7 +6,7 @@
     @vite('resources/js/app.js')
     @inertiaHead
   </head>
-  <body>
+  <body class="bg-white dark:bg-gray-800 text-gray-600 dark:text-gray-300 antialiased">
     @inertia
   </body>
 </html>
